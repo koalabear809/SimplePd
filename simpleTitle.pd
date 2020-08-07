@@ -1,0 +1,19 @@
+#N canvas 2420 199 450 300 10;
+#X obj 101 101 cnv 15 148 18 empty empty Simple_Synth 5 9 0 14 -204786
+-13381 0;
+#X msg 309 177 \; pd dsp 0;
+#X msg 240 179 \; pd dsp 1;
+#X obj 220 103 tgl 15 0 empty empty empty 17 7 0 10 -4034 -13381 -13381
+0 1;
+#X obj 179 142 sel 1;
+#X obj 231 153 bng 15 250 50 0 empty empty empty 17 7 0 10 -262144
+-1 -1;
+#X obj 246 24 loadbang;
+#X msg 247 53 1;
+#X connect 3 0 4 0;
+#X connect 4 0 2 0;
+#X connect 4 1 5 0;
+#X connect 5 0 1 0;
+#X connect 6 0 7 0;
+#X connect 7 0 3 0;
+#X coords 0 -1 1 1 150 20 2 100 100;

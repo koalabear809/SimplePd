@@ -1,0 +1,20 @@
+#N canvas 801 119 450 300 12;
+#X text 57 221 note;
+#X text 248 223 gate;
+#X floatatom 56 34 5 0 0 2 Note - -;
+#X obj 120 55 nbx 5 14 -1e+37 1e+37 0 0 empty empty Dur(ms) 0 -8 0
+10 -262144 -1 -1 667 256;
+#X obj 27 54 bng 15 250 50 0 empty empty empty 17 7 0 10 -262144 -1
+-1;
+#X obj 40 87 i;
+#X obj 107 93 delay;
+#X obj 195 148 i 0;
+#X obj 153 146 i 1;
+#X obj 139 218 print;
+#X obj 52 181 outlet;
+#X connect 2 0 10 0;
+#X connect 3 0 6 1;
+#X connect 4 0 5 0;
+#X connect 4 0 8 0;
+#X connect 4 0 6 0;
+#X connect 6 0 7 0;

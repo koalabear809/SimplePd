@@ -1,0 +1,23 @@
+#N canvas 2193 426 735 529 10;
+#X obj 140 69 nbx 5 14 0 200 0 0 empty empty BPM 0 -8 0 10 -262144
+-1 -1 0 256;
+#X obj 37 130 metro, f 8;
+#X obj 37 159 bng 15 250 50 0 empty empty empty 17 7 0 10 -262144 -1
+-1;
+#X obj 37 97 tgl 15 0 empty empty empty 17 7 0 10 -262144 -1 -1 0 1
+;
+#X obj 187 132 metro 1000;
+#X obj 189 163 bng 15 250 50 0 empty empty empty 17 7 0 10 -262144
+-1 -1;
+#X obj 81 83 /;
+#X msg 82 59 60000;
+#X obj 132 92 t b f;
+#X connect 0 0 8 0;
+#X connect 1 0 2 0;
+#X connect 3 0 1 0;
+#X connect 3 0 4 0;
+#X connect 4 0 5 0;
+#X connect 6 0 1 1;
+#X connect 7 0 6 0;
+#X connect 8 0 7 0;
+#X connect 8 1 6 1;
