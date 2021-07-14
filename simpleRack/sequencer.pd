@@ -1,0 +1,5 @@
+#N canvas 1330 463 538 395 12;
+#X obj 38 45 simpleRack;
+#X obj 37 296 dac~;
+#X connect 0 0 1 0;
+#X connect 0 0 1 1;
